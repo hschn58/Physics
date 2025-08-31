@@ -43,7 +43,7 @@ Animations of wave superposition and particle kinetics
 ## Example Outputs
 
 ### Wave Superposition
-![Wave Superposition](2D_particle_gas.gif)
+![Wave Superposition](wave_superposition.gif)
 
 ### Particle Dynamics
-![Particle Dynamics](particle_dynamics.gif)
+![Particle Dynamics](2D_particle_gas.gif)
