@@ -16,7 +16,7 @@ This repository collects small Python projects and a final course project demons
 - Demonstrates motion from defined initial positions and velocities.
 - Includes: `particle_dynamics.py`, `particle_dynamics.mp4`
 
-### 3. Numerical Optics (Undergraduate Project)
+### 3. Numerical Optics (Undergraduate Final Project, Physics 325)
 - Full write-up: [`numerical_optics.pdf`](numerical_optics.pdf)
 - Solves the **1D paraxial wave equation** using multiple numerical methods:
   - Rayleigh–Sommerfeld integral formulation
