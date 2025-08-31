@@ -28,6 +28,22 @@ This repository collects small Python projects and a final course project demons
 
 ---
 
+## Requirements
+
+The scripts require Python 3.x and the following external libraries:
+
+- [NumPy](https://numpy.org/)  
+- [Matplotlib](https://matplotlib.org/)  
+- [SciPy](https://scipy.org/)  
+
+You can install them with:
+
+```bash
+pip install numpy matplotlib scipy
+```
+
+---
+
 ## Usage
 Clone the repo and run any script:
 
