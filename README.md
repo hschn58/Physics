@@ -36,6 +36,7 @@ git clone https://github.com/hschn58/Physics.git
 cd Physics/Wave_Superposition
 python wave_superposition.py
 Animations of wave superposition and particle kinetics
+```
 
 ---
 
