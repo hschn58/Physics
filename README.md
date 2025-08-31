@@ -42,8 +42,11 @@ Animations of wave superposition and particle kinetics
 
 ## Example Outputs
 
-### Wave Superposition
-![Wave Superposition](Example_Media/wave_superposition.gif)
+## Example Outputs
 
-### Particle Dynamics
-![Particle Dynamics](Example_Media/2D_particle_gas.gif)
+<p align="center">
+  <img src="Example_Media/wave_superposition.gif" alt="Wave Superposition" width="300">
+  <img src="Example_Media/2D_particle_gas.gif" alt="Particle Dynamics" width="300">
+  <img src="Example_Media/rayleigh_sommerfeld_integral.png" alt="Rayleigh–Sommerfeld Integral" width="300">
+</p>
+
