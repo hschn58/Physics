@@ -35,8 +35,9 @@ Clone the repo and run any script:
 git clone https://github.com/hschn58/Physics.git
 cd Physics/Wave_Superposition
 python wave_superposition.py
-Animations of wave superposition and particle kinetics
 ```
+
+Scripts for the optical numerical methods are recorded at the end of [`numerical_optics.pdf`](numerical_optics.pdf)
 
 ---
 
