@@ -5,10 +5,13 @@ from matplotlib.animation import FuncAnimation
 
 
 """
-This script creates a 2D wave interference animation using the superposition principle.
-The script creates a grid of points and calculates the electric field at each point due 
-oscillating charge sources (of randomly assigned total charge) set at random points on the grid.
-The electric field magnitude dissipates with distance from the source as 1/r for energy conservation.
+This script simulates interference patterns from multiple oscillating point sources
+placed at random positions on a 2D grid. The field at each grid point is computed
+using the superposition principle, with source parameters (position, wavevector,
+frequency, amplitude, phase) assigned randomly. Field strength decays as 1/r with
+distance from each source, consistent with wave energy conservation. The result is
+an animated visualization of dynamic interference patterns, applicable to sound,
+water, or electromagnetic waves.
 """
 
 
