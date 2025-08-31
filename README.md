@@ -43,11 +43,12 @@ Scripts for the optical numerical methods are recorded at the end of [`numerical
 
 ## Example Outputs
 
-## Example Outputs
-
 <p align="center">
-  <img src="Example_Media/wave_superposition.gif" alt="Wave Superposition" width="300">
-  <img src="Example_Media/2D_particle_gas.gif" alt="Particle Dynamics" width="300">
-  <img src="Example_Media/rayleigh_sommerfeld_integral.png" alt="Rayleigh–Sommerfeld Integral" width="300">
+  <img src="Example_Media/wave_superposition.gif" alt="Wave Superposition" width="250">
+  <img src="Example_Media/2D_particle_gas.gif" alt="Particle Dynamics" width="250">
+  <img src="Example_Media/rayleigh_sommerfeld_integral.png" alt="Rayleigh–Sommerfeld Integral" width="250">
 </p>
 
+<p align="center">
+  Wave Superposition &nbsp; | &nbsp; Particle Dynamics &nbsp; | &nbsp; Rayleigh–Sommerfeld Integral
+</p>
