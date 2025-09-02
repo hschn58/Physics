@@ -36,6 +36,14 @@ This repository collects small Python projects and a final course project demons
   - Chaotic motion and sensitivity to initial conditions
 - Combines analytic derivations with numerical simulation (RK4) and visualizations.
 
+### 5. Laplace Equation via Relaxation (Undergraduate Honors Project, Physics 322)
+- Report: [`laplace_equation_numerically.pdf`](laplace_equation_numerically.pdf)
+- Implements a 2D relaxation method to solve Laplace’s equation on a rectangular grid.
+- Compares numerical results with the analytic Fourier–series solution on a semi-infinite strip.
+- Includes convergence analysis, error metrics (RMSE, % accuracy), and side-by-side plots.
+- Laplace’s equation is central to **electrostatics** and **steady-state heat conduction**, making this a core physics application.
+
+
 ---
 
 ## Requirements
@@ -72,3 +80,9 @@ Scripts for the optical numerical methods are recorded at the end of [`numerical
 | Wave Superposition | Particle Dynamics | Rayleigh–Sommerfeld Integral |
 |--------------------|-------------------|-------------------------------|
 | <img src="Example_Media/wave_superposition.gif" alt="Wave Superposition" width="250"> | <img src="Example_Media/2D_particle_gas.gif" alt="Particle Dynamics" width="250"> | <img src="Example_Media/rayleigh_sommerfeld_integral.png" alt="Rayleigh–Sommerfeld Integral" width="250"> |
+
+---
+
+## License 
+
+MIT License
