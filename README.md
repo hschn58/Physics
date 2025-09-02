@@ -71,8 +71,6 @@ cd Physics/Wave_Superposition
 python3 wave_superposition.py
 ```
 
-Scripts for the optical numerical methods are recorded at the end of [`numerical_optics.pdf`](numerical_optics.pdf)
-
 ---
 
 ## Example Outputs
