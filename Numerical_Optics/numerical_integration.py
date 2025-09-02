@@ -3,8 +3,11 @@ import mpmath as mp
 import numpy as np
 import matplotlib.pyplot as plt
 
-xpnum = 150
+#xpnum, zpnum determine grid granularity. This method is not fast, so a low-resolution grid is used. 
+xpnum = 150 
 zpnum = 150
+
+
 dist = 10
 # 1) Symbolic definitions
 w, x, z, W0, lam = sp.symbols('w x z W0 lam', real=True, positive=True)
