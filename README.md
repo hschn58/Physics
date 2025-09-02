@@ -3,50 +3,34 @@
 This repository collects small Python projects and a final course project demonstrating physics concepts through simulation and visualization.
 
 ---
-
 ## Projects
 
-### 1. Wave Superposition
-- Visualizes constructive and destructive interference of sinusoidal waves.
-- Demonstrates how frequency, phase, and amplitude determine resulting waveforms.
-- Includes: `wave_superposition.py`, `wave_superposition.mp4`
+### 1) [Wave Superposition](Wave_Superposition)
+- Visualizes constructive/destructive interference from pairs of sinusoids.
+- Emphasizes how frequency, phase, and amplitude shape the resulting waveform.
+- Includes example plots/animations for fast visual inspection of effects.
 
-### 2. Particle Dynamics
-- Simulates particle trajectories under Newtonian dynamics.
-- Demonstrates motion from defined initial positions and velocities.
-- Includes: `particle_dynamics.py`, `particle_dynamics.mp4`
+### 2) [2D Particle Gas](Particle_Dynamics)
+- Simulates a 2D idealized gas with elastic particle–particle and particle–wall collisions.
+- Tracks trajectories, speeds, and aggregate statistics; illustrates approach to equilibrium.
+- Useful for discussing conservation laws and links to Maxwell–Boltzmann intuition.
 
-### 3. Numerical Optics (Undergraduate Final Project, Physics 325)
-- Full write-up: [`numerical_optics.pdf`](numerical_optics.pdf)
-- Solves the **1D paraxial wave equation** using multiple numerical methods:
-  - Rayleigh–Sommerfeld integral formulation
-  - Leapfrog finite-difference scheme
-  - Forward Euler method
-  - Crank–Nicolson method (unconditionally stable)
-- Discusses boundary conditions, stability issues, and computational tradeoffs.
-- Python implementations included in the appendix of the report.
+### 3) [Numerical Optics](Numerical_Optics) — Undergraduate Final Project (Physics 325)
+- **Report:** [`numerical_optics.pdf`](Numerical_Optics/numerical_optics.pdf)  
+- Implements multiple solvers for the paraxial wave/propagation equation:
+  - Rayleigh–Sommerfeld integral, Leapfrog FD, Forward Euler, and Crank–Nicolson.
+- Compares stability, boundary conditions, and computational trade-offs; includes derivations and results.
 
-### 4. Anharmonic Oscillator (Undergraduate Final Project, Physics 311)
-- Notebook: [`Anharmonic_Oscillator.ipynb`](Anharmonic_Oscillator.ipynb)
-- Studies the **nonlinear driven pendulum**, including:
-  - Lagrangian → Hamiltonian → exact nonlinear equation of motion
-  - Amplitude-dependent period (elliptic integral derivation)
-  - Parametric driving at ω = ω₀ and why divergence does not occur
-  - Stabilization of the inverted pendulum at high-frequency drive
-  - Chaotic motion and sensitivity to initial conditions
-- Combines analytic derivations with numerical simulation (RK4) and visualizations.
+### 4) [Anharmonic Oscillator](Anharmonic_Oscillator) — Undergraduate Final Project (Physics 311)
+- **Notebook:** [`Anharmonic_Oscillator.ipynb`](Anharmonic_Oscillator/Anharmonic_Oscillator.ipynb)  
+- Derives equations of motion (Lagrangian → Hamiltonian → nonlinear ODE) and analyzes:
+  - Amplitude-dependent period (elliptic integral), parametric driving, inverted-pendulum stabilization,
+  - Onset of chaos and sensitivity to initial conditions (with RK4 simulations and phase portraits).
 
-### 5. Laplace Equation via Relaxation (Undergraduate Honors Project, Physics 322)
-- Report: [`laplace_equation_numerically.pdf`](laplace_equation_numerically.pdf)
-- Implements a 2D relaxation method to solve Laplace’s equation on a rectangular grid.
-- Compares numerical results with the analytic Fourier–series solution on a semi-infinite strip.
-- Includes convergence analysis, error metrics (RMSE, % accuracy), and side-by-side plots.
-- Laplace’s equation is central to **electrostatics** and **steady-state heat conduction**, making this a core physics application.
-
-
----
-
-## Requirements
+### 5) [Laplace Equation via Relaxation](Laplace_Relaxation) — Undergraduate Honors Project (Physics 322)
+- **Report:** [`laplace_equation_numerically.pdf`](Laplace_Relaxation/laplace_equation_numerically.pdf)  
+- Implements a 2D relaxation solver on a rectangular grid and benchmarks against an analytic Fourier-series solution.
+- Includes convergence checks, error metrics (RMSE/percent accuracy), and side-by-side visual comparisons.
 
 The scripts require Python 3.x and the following external libraries:
 
@@ -70,8 +54,6 @@ git clone https://github.com/hschn58/Physics.git
 cd Physics/Wave_Superposition
 python3 wave_superposition.py
 ```
-
-Scripts for the optical numerical methods are recorded at the end of [`numerical_optics.pdf`](numerical_optics.pdf)
 
 ---
 
