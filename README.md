@@ -1,4 +1,4 @@
-# Physics Animations & Numerical Optics
+# Numerical Physics Projects
 
 This repository collects small Python projects and a final course project demonstrating physics concepts through simulation and visualization.
 
@@ -25,6 +25,16 @@ This repository collects small Python projects and a final course project demons
   - Crank–Nicolson method (unconditionally stable)
 - Discusses boundary conditions, stability issues, and computational tradeoffs.
 - Python implementations included in the appendix of the report.
+
+### 4. Anharmonic Oscillator (Undergraduate Final Project, Physics 311)
+- Notebook: [`Anharmonic_Oscillator.ipynb`](Anharmonic_Oscillator.ipynb)
+- Studies the **nonlinear driven pendulum**, including:
+  - Lagrangian → Hamiltonian → exact nonlinear equation of motion
+  - Amplitude-dependent period (elliptic integral derivation)
+  - Parametric driving at ω = ω₀ and why divergence does not occur
+  - Stabilization of the inverted pendulum at high-frequency drive
+  - Chaotic motion and sensitivity to initial conditions
+- Combines analytic derivations with numerical simulation (RK4) and visualizations.
 
 ---
 
