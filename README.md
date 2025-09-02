@@ -36,6 +36,14 @@ This repository collects small Python projects and a final course project demons
   - Chaotic motion and sensitivity to initial conditions
 - Combines analytic derivations with numerical simulation (RK4) and visualizations.
 
+### 5. Laplace Equation via Relaxation (Undergraduate Honors Project, Physics 322)
+- Report: [`laplace_equation_numerically.pdf`](laplace_equation_numerically.pdf)
+- Implements a 2D relaxation method to solve Laplace’s equation on a rectangular grid.
+- Compares numerical results with the analytic Fourier–series solution on a semi-infinite strip.
+- Includes convergence analysis, error metrics (RMSE, % accuracy), and side-by-side plots.
+- Laplace’s equation is central to **electrostatics** and **steady-state heat conduction**, making this a core physics application.
+
+
 ---
 
 ## Requirements
