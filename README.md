@@ -1,4 +1,4 @@
-# Physics Animations & Numerical Optics
+# Numerical Physics Projects
 
 This repository collects small Python projects and a final course project demonstrating physics concepts through simulation and visualization.
 
