@@ -16,7 +16,7 @@ This repository collects small Python projects and a final course project demons
 - Useful for discussing conservation laws and links to Maxwell–Boltzmann intuition.
 
 ### 3) [Numerical Optics](Numerical_Optics) — Undergraduate Final Project (Physics 325)
-- **Report:** [`numerical_optics.pdf`](Numerical_Optics/Numerical_Optics.pdf)  
+- **Report:** [`Numerical_Optics.pdf`](Numerical_Optics/Numerical_Optics.pdf)  
 - Implements multiple solvers for the paraxial wave/propagation equation:
   - Rayleigh–Sommerfeld integral, Leapfrog FD, Forward Euler, and Crank–Nicolson.
 - Compares stability, boundary conditions, and computational trade-offs; includes derivations and results.
