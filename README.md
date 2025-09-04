@@ -16,7 +16,7 @@ This repository collects small Python projects and a final course project demons
 - Useful for discussing conservation laws and links to Maxwell–Boltzmann intuition.
 
 ### 3) [Numerical Optics](Numerical_Optics) — Undergraduate Final Project (Physics 325)
-- **Report:** [`numerical_optics.pdf`](Numerical_Optics/numerical_optics.pdf)  
+- **Report:** [`numerical_optics.pdf`](Numerical_Optics/Numerical_Optics.pdf)  
 - Implements multiple solvers for the paraxial wave/propagation equation:
   - Rayleigh–Sommerfeld integral, Leapfrog FD, Forward Euler, and Crank–Nicolson.
 - Compares stability, boundary conditions, and computational trade-offs; includes derivations and results.
@@ -28,7 +28,7 @@ This repository collects small Python projects and a final course project demons
   - Onset of chaos and sensitivity to initial conditions (with RK4 simulations and phase portraits).
 
 ### 5) [Laplace Equation via Relaxation](Laplace_Relaxation) — Undergraduate Honors Project (Physics 322)
-- **Report:** [`laplace_equation_numerically.pdf`](Laplace_Relaxation/laplace_equation_numerically.pdf)  
+- **Report:** [`laplace_equation_numerically.pdf`](Laplace_Relaxation/Laplace_Relaxation.pdf)  
 - Implements a 2D relaxation solver on a rectangular grid and benchmarks against an analytic Fourier-series solution.
 - Includes convergence checks, error metrics (RMSE/percent accuracy), and side-by-side visual comparisons.
 
