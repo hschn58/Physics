@@ -10,7 +10,7 @@ This repository collects small Python projects and a final course project demons
 - Emphasizes how frequency, phase, and amplitude shape the resulting waveform.
 - Includes example plots/animations for fast visual inspection of effects.
 
-### 2) [2D Particle Gas](Particle_Dynamics)
+### 2) [2D Particle Gas](2D_particle_gas)
 - Simulates a 2D idealized gas with elastic particle–particle and particle–wall collisions.
 - Tracks trajectories, speeds, and aggregate statistics; illustrates approach to equilibrium.
 - Useful for discussing conservation laws and links to Maxwell–Boltzmann intuition.
