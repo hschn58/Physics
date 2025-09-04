@@ -28,7 +28,7 @@ This repository collects small Python projects and a final course project demons
   - Onset of chaos and sensitivity to initial conditions (with RK4 simulations and phase portraits).
 
 ### 5) [Laplace Equation via Relaxation](Laplace_Relaxation) — Undergraduate Honors Project (Physics 322)
-- **Report:** [`laplace_equation_numerically.pdf`](Laplace_Relaxation/Laplace_Relaxation.pdf)  
+- **Report:** [`Laplace_Relaxation.pdf`](Laplace_Relaxation/Laplace_Relaxation.pdf)  
 - Implements a 2D relaxation solver on a rectangular grid and benchmarks against an analytic Fourier-series solution.
 - Includes convergence checks, error metrics (RMSE/percent accuracy), and side-by-side visual comparisons.
 
