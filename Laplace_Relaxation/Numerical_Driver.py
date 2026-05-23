@@ -78,7 +78,7 @@ for iter in range(ITERS):
         rms_exact = np.sqrt(np.mean(Z**2))
         percent_accuracy = 100 * (1 - rms_err / rms_exact)
 
-        with open('/Users/henryschnieders/desktop/proj_output.txt', 'a') as f:
+        with open('proj_output.txt', 'a') as f:
             f.write(f"Iteration {iter}\n")
             f.write(f"RMS‑based % accuracy: {percent_accuracy:.2f}%\n")
 

@@ -17,7 +17,7 @@ water, or electromagnetic waves.
 
 
 
-save_loc = 'path/efield.mp4'
+save_loc = 'efield.mp4'
 
 
 

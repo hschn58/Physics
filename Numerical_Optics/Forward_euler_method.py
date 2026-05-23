@@ -77,7 +77,7 @@ plt.xlabel('z (µm)')
 plt.title('Forward-Euler Method: Electric Field Propagation')
 plt.colorbar(label='Relative Amplitude')
 
-plt.savefig('/Users/henryschnieders/desktop/forward_euler.png', dpi=1200, bbox_inches='tight')
+plt.savefig('forward_euler.png', dpi=1200, bbox_inches='tight')
 plt.show()
 
 

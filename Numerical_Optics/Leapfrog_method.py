@@ -77,7 +77,7 @@ plt.title('Leapfrog method: Electric field propagation')
 plt.ylabel('x (µm)')
 plt.xlabel('z (µm)')
 
-plt.savefig('/Users/henryschnieders/desktop/leapfrog_method.png', dpi=1200, bbox_inches='tight')
+plt.savefig('leapfrog_method.png', dpi=1200, bbox_inches='tight')
 plt.show()
 
 

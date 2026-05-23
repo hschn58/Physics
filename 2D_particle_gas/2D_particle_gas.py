@@ -17,7 +17,7 @@ col_mat=np.zeros((num_particles, num_particles), dtype=bool)  collision matrix, 
 particles: dictionary of all Particle class objects
 """
 
-save_loc = "path/2d_gas.mp4"    
+save_loc = "2d_gas.mp4"
 
 def are_particles_approaching(rel_pos, vel1, vel2):
    
