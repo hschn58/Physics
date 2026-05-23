@@ -10,13 +10,13 @@ This repository collects small Python projects and a final course project demons
 - Emphasizes how frequency, phase, and amplitude shape the resulting waveform.
 - Includes example plots/animations for fast visual inspection of effects.
 
-### 2) [2D Particle Gas](Particle_Dynamics)
+### 2) [2D Particle Gas](2D_particle_gas)
 - Simulates a 2D idealized gas with elastic particle–particle and particle–wall collisions.
 - Tracks trajectories, speeds, and aggregate statistics; illustrates approach to equilibrium.
 - Useful for discussing conservation laws and links to Maxwell–Boltzmann intuition.
 
 ### 3) [Numerical Optics](Numerical_Optics) — Undergraduate Final Project (Physics 325)
-- **Report:** [`numerical_optics.pdf`](Numerical_Optics/numerical_optics.pdf)  
+- **Report:** [`Numerical_Optics.pdf`](Numerical_Optics/Numerical_Optics.pdf)  
 - Implements multiple solvers for the paraxial wave/propagation equation:
   - Rayleigh–Sommerfeld integral, Leapfrog FD, Forward Euler, and Crank–Nicolson.
 - Compares stability, boundary conditions, and computational trade-offs; includes derivations and results.
@@ -28,7 +28,7 @@ This repository collects small Python projects and a final course project demons
   - Onset of chaos and sensitivity to initial conditions (with RK4 simulations and phase portraits).
 
 ### 5) [Laplace Equation via Relaxation](Laplace_Relaxation) — Undergraduate Honors Project (Physics 322)
-- **Report:** [`laplace_equation_numerically.pdf`](Laplace_Relaxation/laplace_equation_numerically.pdf)  
+- **Report:** [`Laplace_Relaxation.pdf`](Laplace_Relaxation/Laplace_Relaxation.pdf)  
 - Implements a 2D relaxation solver on a rectangular grid and benchmarks against an analytic Fourier-series solution.
 - Includes convergence checks, error metrics (RMSE/percent accuracy), and side-by-side visual comparisons.
 
@@ -67,4 +67,4 @@ python3 wave_superposition.py
 
 ## License 
 
-MIT License
+This project is licensed under the [MIT License](./LICENSE).
