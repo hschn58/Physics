@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import numpy as np
-from scipy.sparse import diags, lil_matrix, csc_matrix
+from scipy.sparse import diags
 
 def build_Dx_robin(Nx, dx, alpha, beta):
     """

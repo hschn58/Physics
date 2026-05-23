@@ -66,12 +66,12 @@ u_k[:, COLS-1] = 0
 
 
 # Relaxation approximation block
-for iter in range(ITERS):
+for iteration in range(ITERS):
 
-    if iter % 100 == 0:
+    if iteration % 100 == 0:
 
-        if iter % 1000 == 0:
-            print(f"iteration {iter}")
+        if iteration % 1000 == 0:
+            print(f"iteration {iteration}")
         
         err = Z - u_0
         rms_err = np.sqrt(np.mean(err**2))
@@ -79,7 +79,7 @@ for iter in range(ITERS):
         percent_accuracy = 100 * (1 - rms_err / rms_exact)
 
         with open('proj_output.txt', 'a') as f:
-            f.write(f"Iteration {iter}\n")
+            f.write(f"Iteration {iteration}\n")
             f.write(f"RMS‑based % accuracy: {percent_accuracy:.2f}%\n")
 
     for row in range(1, ROWS-1):
@@ -89,7 +89,7 @@ for iter in range(ITERS):
             u_k[row, col] = ((dy**2)*(u_0[row, col+1] + u_0[row, col-1]) + 
                             (dx**2)*(u_0[row+1, col] + u_0[row-1, col])) / denom
 
-    u_0 = u_k
+    u_0 = u_k.copy()
 
 
 x = np.linspace(0, Lx, COLS)
@@ -105,7 +105,7 @@ ax.plot_surface(X, Y, u_0, linewidth=0, antialiased=True)
 ax.set_xlabel('X')
 ax.set_ylabel('Y')
 ax.set_zlabel('Function Value')
-ax.set_title(f'Relaxation approximation after {iter} iterations')
+ax.set_title(f'Relaxation approximation after {iteration} iterations')
 
 # Plot the analytic solution
 ax = fig.add_subplot(122, projection='3d')

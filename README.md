@@ -52,7 +52,7 @@ Clone the repo and run any script:
 ```bash
 git clone https://github.com/hschn58/Physics.git
 cd Physics/Wave_Superposition
-python3 wave_superposition.py
+python3 E_Conserved.py
 ```
 
 ---
@@ -67,4 +67,4 @@ python3 wave_superposition.py
 
 ## License 
 
-This project is licensed under the [MIT License](./LICENSE).
+MIT License
