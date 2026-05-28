@@ -6,9 +6,9 @@ This repository collects small Python projects and a final course project demons
 ## Projects
 
 ### 1) [Wave Superposition](Wave_Superposition)
-- Visualizes constructive/destructive interference from pairs of sinusoids.
-- Emphasizes how frequency, phase, and amplitude shape the resulting waveform.
-- Includes example plots/animations for fast visual inspection of effects.
+- Simulates 2D interference patterns from a variable number of oscillating point sources with 1/r energy-conserving decay.
+- Each source has random position, wavevector, frequency, amplitude, and phase.
+- Produces animated visualizations of the resulting dynamic interference field.
 
 ### 2) [2D Particle Gas](2D_particle_gas)
 - Simulates a 2D idealized gas with elastic particle–particle and particle–wall collisions.
@@ -32,26 +32,18 @@ This repository collects small Python projects and a final course project demons
 - Implements a 2D relaxation solver on a rectangular grid and benchmarks against an analytic Fourier-series solution.
 - Includes convergence checks, error metrics (RMSE/percent accuracy), and side-by-side visual comparisons.
 
-The scripts require Python 3.x and the following external libraries:
-
-- [NumPy](https://numpy.org/)  
-- [Matplotlib](https://matplotlib.org/)  
-- [SciPy](https://scipy.org/)  
-
-You can install them with:
-
-```bash
-pip install numpy matplotlib scipy
-```
-
----
-
-## Usage
-Clone the repo and run any script:
+## Quickstart
 
 ```bash
 git clone https://github.com/hschn58/Physics.git
-cd Physics/Wave_Superposition
+cd Physics
+pip install -r requirements.txt
+```
+
+Then run any subproject:
+
+```bash
+cd Wave_Superposition
 python3 E_Conserved.py
 ```
 
